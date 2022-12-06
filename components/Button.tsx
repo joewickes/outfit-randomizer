@@ -1,6 +1,10 @@
 import styles from '../styles/Buttons.module.scss';
 
 const Button = (({ size }: { size: string }) => {
+  const Btn = () => {
+    
+  }
+  
   switch (size) {
     case 'sm':
       return (<></>);
